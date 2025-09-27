@@ -1,69 +1,68 @@
-# React + TypeScript + Vite
+# 🎯 Targeted - Ulimate Task Manager (In Progress)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Part-time passion project** — started on **22/09/2025**  
+> ⏱️ Daily target: ~4 hours
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📅 Expected Project Timeline
 
-## Expanding the ESLint configuration
+| Phase    | Target Date      | Milestone Description                                     |
+|----------|------------------|-----------------------------------------------------------|
+| Phase 1  | 22/09/2025       | Set up + db design                                        |
+| Phase 2  | 30/09/2025       | Backend Setup + Ui Landing                                |
+| Phase 3  | 10/10/2025       | Auth + Complete CRUD + UI + Team Manage                   |
+| Phase 4  | 20/10/2025       | Sync Note Complete + app setup                            |
+| Phase 5  | 30/10/2025       | First Version deploy                                      |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Golden Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### ✅ 1. Task + Goal System
+- Track goals: Daily / Weekly / Monthly / Yearly
+- Progress-based tracking with completion %
+- Checklist system with visual stats
+- Link recurring tasks to long-term goals for motivation
+- **Pre-filled Daily Habits**: Wake Up, Workout, Journal, etc.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 💪 2. Health & Focus
+- Meditation Timer: Increases duration daily (e.g. 5 → 6 → 15 mins)
+  
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 📝 3. Notes + Expense Sync
+- Shared notes accessible across mobile/web
+- Trend and History view for finance & notes
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+### 📊 4. Smart Insights
+- Colored Calendar: Past performance visualization
+- Priority Matrix: Based on Urgent–Important framework
+- Daily/Weekly reports: Progress %, best streaks, focus hours
+
+---
+
+### 🕹️ 5. Gamification Layer (optional)
+- Earn XP, unlock badges, and level up
+- Avatar that evolves with your growth
+- Fun Challenges: *“7-Day Streak Warrior”*
+- View friends’ streaks and goals for friendly motivation
+
+---
+
+## 🧾 Activity Log
+
+| Date       | Activity            |
+|------------|---------------------|
+| 22/09/2025 | Worked on UI        |
+
+---
+
+## 🚧 Current Status 
+
+> 🛠️ Actively building — Contributions, feedback, and stars are welcome!  
+> let's connect -> panwparmendra7@gmail.com
