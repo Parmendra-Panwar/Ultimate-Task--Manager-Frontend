@@ -17,6 +17,16 @@
 
 ---
 
+## 🧾 Activity Log
+
+| Date          | Activity            |
+|---------------|---------------------|
+| 22-28/09/2025 | Worked on UI        |
+| 28-10/10/2025 | Laptop on repair    |
+| 10/10/2025    | Worked on Fornt end |
+
+---
+
 ## ✨ Golden Features
 
 ### ✅ 1. Task + Goal System
@@ -51,15 +61,7 @@
 - Avatar that evolves with your growth
 - Fun Challenges: *“7-Day Streak Warrior”*
 - View friends’ streaks and goals for friendly motivation
-
----
-
-## 🧾 Activity Log
-
-| Date       | Activity            |
-|------------|---------------------|
-| 22/09/2025 | Worked on UI        |
-
+  
 ---
 
 ## 🚧 Current Status 
