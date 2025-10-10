@@ -1,11 +1,11 @@
-# 🎯 Targeted - Ulimate Task Manager (In Progress)
+# Targeted - Ulimate Task Manager (In Progress)
 
 > **Part-time passion project** — started on **22/09/2025**  
-> ⏱️ Daily target: ~4 hours
+> Daily target: ~4 hours
 
 ---
 
-## 📅 Expected Project Timeline
+## Expected Project Timeline
 
 | Phase    | Target Date      | Milestone Description                                     |
 |----------|------------------|-----------------------------------------------------------|
@@ -17,7 +17,7 @@
 
 ---
 
-## 🧾 Activity Log
+## Activity Log
 
 | Date          | Activity            |
 |---------------|---------------------|
@@ -27,9 +27,9 @@
 
 ---
 
-## ✨ Golden Features
+## Golden Features
 
-### ✅ 1. Task + Goal System
+### 1. Task + Goal System
 - Track goals: Daily / Weekly / Monthly / Yearly
 - Progress-based tracking with completion %
 - Checklist system with visual stats
@@ -38,25 +38,25 @@
 
 ---
 
-### 💪 2. Health & Focus
+### 2. Health & Focus
 - Meditation Timer: Increases duration daily (e.g. 5 → 6 → 15 mins)
   
 ---
 
-### 📝 3. Notes + Expense Sync
+### 3. Notes + Expense Sync
 - Shared notes accessible across mobile/web
 - Trend and History view for finance & notes
 
 ---
 
-### 📊 4. Smart Insights
+### 4. Smart Insights
 - Colored Calendar: Past performance visualization
 - Priority Matrix: Based on Urgent–Important framework
 - Daily/Weekly reports: Progress %, best streaks, focus hours
 
 ---
 
-### 🕹️ 5. Gamification Layer (optional)
+### 5. Gamification Layer (optional)
 - Earn XP, unlock badges, and level up
 - Avatar that evolves with your growth
 - Fun Challenges: *“7-Day Streak Warrior”*
@@ -64,7 +64,7 @@
   
 ---
 
-## 🚧 Current Status 
+## Current Status 
 
 > 🛠️ Actively building — Contributions, feedback, and stars are welcome!  
 > let's connect -> panwparmendra7@gmail.com
