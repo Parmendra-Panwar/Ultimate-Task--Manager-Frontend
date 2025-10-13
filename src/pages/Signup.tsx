@@ -6,7 +6,7 @@ export default function Signup() {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Login form submitted");
-    navigate("/dashboard");
+    navigate("/dashboard", { state: { user: (e.target as any).username.value } });
   };
 
   return (
