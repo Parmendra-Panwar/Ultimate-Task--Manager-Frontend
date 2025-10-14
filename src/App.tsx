@@ -4,6 +4,8 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import Goals from './pages/Goals';
+import CreateGoal from './pages/CreateGoal';
+import CreateTask from './pages/CreateTask';
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/goal/:id" element={<Goals />} />
+        <Route path='creategoal' element={<CreateGoal />} />
+        <Route path='createtask' element={<CreateTask />} />
         <Route path="*" element={<Login />} />
       </Routes>
     </>

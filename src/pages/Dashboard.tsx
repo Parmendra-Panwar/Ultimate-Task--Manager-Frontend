@@ -1,4 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
+import { FaRegSquarePlus } from "react-icons/fa6";
 
 export default function Dashboard() {
   const location = useLocation();
@@ -18,22 +19,40 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="w-full max-w-5xl bg-white shadow-xl rounded-2xl p-8">
-        <h2 className="text-3xl font-bold text-center text-indigo-600 mb-6">
-          Welcome to Your Dashboard
-        </h2>
-        {user && (
-          <p className="text-center text-gray-700 mb-4">
-            Logged in as: <span className="font-semibold">{user}</span>
-          </p>
-        )}
+    <div className="min-h-screen flex">
+      <div className="w-full max-w-5x rounded-2xl p-8">
+        {user && (<h2 className="text-3xl font-bold text-center text-indigo-600 mb-6">
+          Welcome to Your Dashboard {user}
+        </h2>)}
+        <p className="text-center text-gray-700 mb-4">
+          Here are your current goals and their progress.
+        </p>
         <p className="text-center text-gray-600 mb-6">
           Number of Your Goals :{" "}
           <span className="font-semibold">{goals.length}</span>
         </p>
-
-        {/* ✅ Goals Table */}
+        <div className="flex flex-row justify-between"> 
+          <div className="flex flex-row gap-5">
+            <button onClick={() => navigate('/creategoal')} className="text-2xl flex items-center justify-center gap-3 mb-4 cursor-pointer">
+              <h3 className="text-amber-50">Check Goals</h3>
+              <FaRegSquarePlus className="text-amber-50 text-3xl" />
+            </button>
+            <button onClick={() => navigate('/createtask')} className="text-2xl flex items-center justify-center gap-3 mb-4 cursor-pointer">
+              <h3 className="text-amber-50">Check Task</h3>
+              <FaRegSquarePlus className="text-amber-50 text-3xl" />
+            </button>
+          </div>
+          <div className="flex flex-row gap-5">
+            <button onClick={() => navigate('/creategoal')} className="text-2xl flex items-center justify-center gap-3 mb-4 cursor-pointer">
+              <h3 className="text-amber-50">Create Goals</h3>
+              <FaRegSquarePlus className="text-amber-50 text-3xl" />
+            </button>
+            <button onClick={() => navigate('/createtask')} className="text-2xl flex items-center justify-center gap-3 mb-4 cursor-pointer">
+              <h3 className="text-amber-50">Create Task</h3>
+              <FaRegSquarePlus className="text-amber-50 text-3xl" />
+            </button>
+          </div>
+        </div>
         <div className="overflow-x-auto">
           <table className="min-w-full border border-gray-200 rounded-lg overflow-hidden">
             <thead className="bg-indigo-600 text-white">
@@ -48,9 +67,8 @@ export default function Dashboard() {
               {goals.map((goal, index) => (
                 <tr
                   key={goal.id}
-                  className={`border-b ${
-                    index % 2 === 0 ? "bg-gray-50" : "bg-white"
-                  }`}
+                  className={`border-b ${index % 2 === 0 ? "bg-gray-50" : "bg-white"
+                    }`}
                 >
                   <td className="py-3 px-4 font-medium text-gray-700">
                     {index + 1}
@@ -61,13 +79,12 @@ export default function Dashboard() {
                     <div className="flex items-center gap-2">
                       <div className="w-full bg-gray-200 h-2 rounded-full overflow-hidden">
                         <div
-                          className={`h-2 rounded-full ${
-                            goal.completion > 70
-                              ? "bg-green-500"
-                              : goal.completion > 40
+                          className={`h-2 rounded-full ${goal.completion > 70
+                            ? "bg-green-500"
+                            : goal.completion > 40
                               ? "bg-yellow-400"
                               : "bg-red-400"
-                          }`}
+                            }`}
                           style={{ width: `${goal.completion}%` }}
                         ></div>
                       </div>
