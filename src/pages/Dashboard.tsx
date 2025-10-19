@@ -33,11 +33,11 @@ export default function Dashboard() {
         </p>
         <div className="flex flex-row justify-between"> 
           <div className="flex flex-row gap-5">
-            <button onClick={() => navigate('/creategoal')} className="text-2xl flex items-center justify-center gap-3 mb-4 cursor-pointer">
+            <button onClick={() => navigate('/checkgoal')} className="text-2xl flex items-center justify-center gap-3 mb-4 cursor-pointer">
               <h3 className="text-amber-50">Check Goals</h3>
               <FaRegSquarePlus className="text-amber-50 text-3xl" />
             </button>
-            <button onClick={() => navigate('/createtask')} className="text-2xl flex items-center justify-center gap-3 mb-4 cursor-pointer">
+            <button onClick={() => navigate('/checktask')} className="text-2xl flex items-center justify-center gap-3 mb-4 cursor-pointer">
               <h3 className="text-amber-50">Check Task</h3>
               <FaRegSquarePlus className="text-amber-50 text-3xl" />
             </button>
