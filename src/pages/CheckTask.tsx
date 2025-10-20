@@ -143,8 +143,8 @@ export default function Home() {
         event.id === updatedEvent.id ? updatedEvent : event
       )
     )
-  }
-
+   }
+// i added comment
   const handleEventDelete = (eventId: string) => {
     setEvents(events.filter((event) => event.id !== eventId))
   }
